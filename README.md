@@ -2,7 +2,7 @@ This does gaussian blur on a user-input image. It generates a 1-dimensional Gaus
 
 Requirements: stb_image.h and stb_image_write.h
 
-Usage:   ./gb.exe <inputjpg> <outputname> <double: a> <double: x0> <double: x1> <unsigned int: dim>
+Usage:   ./gb.exe inputjpg outputname a x0 x1 dim
 
 Example: ./gb.exe myimg.jpg output.jpg 0.6 -2.0 2.0 101
 
